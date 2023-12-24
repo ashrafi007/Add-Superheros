@@ -1,0 +1,84 @@
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    width: 100%;
+    background:rgb(1, 54, 75);
+    font-family: Titillium Web;
+}
+.container{
+    background-color: white;
+    height: 600px;
+    width: 1000px;
+    border-radius: 15px;
+    box-shadow: -2px -2px 2px gray;
+    
+}
+.heading p{
+    color:gray;
+    margin-left: 10px;
+    font-size: 25px;
+
+    
+}
+.people{
+    height: 500px;
+    width: 1000px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 42%;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    
+}
+
+.ppl{
+    height: 450px;
+    width: 350px;
+    border-radius: 15px;
+    background: white;
+    margin-left: 10px;
+    padding:10px;
+    box-shadow: 2px 2px 2px white;
+    border:2px solid black;
+    
+}
+img{
+    height: 270px;
+    width: 350px;
+    border-radius: 15px;
+    object-fit: cover;
+    object-position: center;
+}
+.username{
+    font-style: normal;
+    object-position: center;
+    margin: 0px;
+    padding: 0px;
+}
+.people .ppl .address{
+    font-size: 15px;
+    padding: 0rem;
+    margin:0rem;
+}
+
+.people .ppl .btn{
+    padding:15px;
+    height: 50px;
+    width: 12rem;
+    object-position: center;
+    border-radius: 5rem;
+    background-color: lightgreen;
+}
+.redBtn{
+    color:white;
+    padding:15px;
+    height: 50px;
+    width: 12rem;
+    object-position: center;
+    border-radius: 5rem;
+    background-color: rgb(229, 70, 70);
+}
